@@ -1,0 +1,40 @@
+.images {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 16px;
+}
+.images img {
+    width: 26%;
+    height: 360px;
+    border-radius: 16px;
+}
+@media screen and (max-width: 1400px) {
+    .images{
+        display: block;
+        width: 100%;
+    }
+    .images img {
+        display: block;
+        margin: 14px auto;
+        width: 50%;
+        height: 28%;
+
+    }
+}
+.addition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 8px 0;
+    border-radius: 8px;
+}
+
+.addImg img {
+    width: 400px;
+    height: 500px;
+}

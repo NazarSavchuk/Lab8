@@ -1,0 +1,26 @@
+.VideoContent {
+    display: flex;
+    justify-content: space-around;
+    margin: 8px auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 14px 0;
+}
+
+.video {
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1400px) {
+    .VideoContent{
+        display: block;
+        width: 100%;
+    }
+    .VideoContent .video{
+        display: block;
+        margin: 14px auto;
+        width: 50%;
+        height: 28%;
+
+    }
+}

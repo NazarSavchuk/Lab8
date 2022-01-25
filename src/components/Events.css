@@ -1,0 +1,35 @@
+.Events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 8px auto;
+    border-radius: 8px;
+    padding: 8px 0;
+}
+
+
+
+.ReactElement {
+    margin: 5px 5px;
+    height: 120px;
+    width: 200px;
+    background-color: rgb(16, 37, 27);
+    border-radius: 6px;
+    text-align: center;
+    font-size: 22px;
+    color: aliceblue;
+    line-height: 120px;
+}
+.ReactElement input {
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+    background-color: rgb(16, 37, 27);
+    border: 0;
+    border-bottom: 1px solid aliceblue;
+}
+
+.ReactElement AudioPlayer {
+    color: red;
+}

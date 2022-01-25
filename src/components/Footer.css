@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin-top: 14px;
+    font-size: 28px;
+}

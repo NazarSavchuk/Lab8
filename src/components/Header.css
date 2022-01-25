@@ -1,0 +1,28 @@
+header {
+    height: 54px;
+    background-color: aliceblue;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.logo {
+    display: inline-block;
+    height: 100%;
+    color: #4B4453;
+    line-height: 54px;
+    font-size: 36px;
+}
+
+nav ul{
+    display: flex;
+    line-height: 54px;
+    list-style: none;
+}
+nav ul li {
+    margin-right: 30px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #4B4453;
+}
